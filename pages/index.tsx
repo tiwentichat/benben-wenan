@@ -95,7 +95,6 @@ const Home: NextPage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Github />
             <p>去AiHuman.Life主站</p>
           </a>
 
@@ -103,7 +102,7 @@ const Home: NextPage = () => {
         </div>
 
         <h1 className="sm:text-3xl text-2xl max-w-1xl font-bold text-slate-900">
-          写作助手
+          就业作战室
         </h1>
         {/* <p className="text-slate-500 mt-5">18,167 bios generated so far.</p> */}
         <div className="max-w-xl w-full">
@@ -115,7 +114,7 @@ const Home: NextPage = () => {
               alt="1 icon"
             />
             <p className="text-left font-medium">
-              写主题，或者复制粘贴你的内容
+              输入内容
             </p>
           </div>
           <textarea
@@ -129,7 +128,7 @@ const Home: NextPage = () => {
           />
           <div className="flex mb-5 items-center space-x-3">
             <Image src="/2-black.png" width={30} height={30} alt="1 icon" />
-            <p className="text-left font-medium">选择目的.</p>
+            <p className="text-left font-medium">选择任务.</p>
           </div>
           <div className="block">
             <DropDown vibe={lang} setVibe={(newLang) => setLang(newLang)} />
@@ -165,7 +164,7 @@ const Home: NextPage = () => {
                 <>
                   <div>
                     <h2 className="sm:text-4xl text-3xl font-bold text-slate-900 mx-auto">
-                      生成内容
+                      生成方案
                     </h2>
                   </div>
                   <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto  whitespace-pre-wrap">
