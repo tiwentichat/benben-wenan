@@ -14,9 +14,9 @@ import ResizablePanel from "../components/ResizablePanel";
 const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
   const [desc, setDesc] = useState("");
-  const [lang, setLang] = useState<VibeType>("直接发给chatgpt");
+  const [lang, setLang] = useState<VibeType>("自我介绍（把简历内容贴在输入栏，注意不要泄露隐私）");
   const [generatedDescs, setGeneratedDescs] = useState<string>("");
-  const defultDesc = '   这是我的简历，请帮我提取一个合适的自我介绍，方便我去参加面试'
+  const defultDesc = '这是我的简历，请帮我提取一个合适的自我介绍，方便我去参加面试'
   console.log("Streamed response: ", {generatedDescs});
   let promptObj = {
     "自我介绍（把简历内容贴在输入栏，注意不要泄露隐私）":"把简历内容提炼成自我介绍，需要展示出我的特点，也要展现出工作中的表现",
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
     "职位趋势（先填写你想了解的职位名称）":"结合市场情况，帮我详细分析一下这些岗位的未来发展趋势",
     "职业规划（把自我介绍贴在输入栏）":"结合我的自我介绍，帮我做一下职业规划",
     "职位匹配度咨询（需要把自我介绍和职位描述都贴进去）":"结合我的自我介绍",
-    "面试模拟（需要在上方填写职位名称和职位描述）":"你现在是面试官，",
+    "面试模拟（需要在上方填写职位名称和职位描述）":"你现在是面试官，结合职位名称和职位描述，接下来请帮我列出12个最可能的面试问题",
 
   }
   
