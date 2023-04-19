@@ -16,19 +16,17 @@ const Home: NextPage = () => {
   const [desc, setDesc] = useState("");
   const [lang, setLang] = useState<VibeType>("直接发给chatgpt");
   const [generatedDescs, setGeneratedDescs] = useState<string>("");
-  const defultDesc = '帮我写个中文邮件和领导请三天假去过自己的80大寿，不会耽误老板换最新型号的星舰'
+  const defultDesc = '   这是我的简历，请帮我提取一个合适的自我介绍，方便我去参加面试'
   console.log("Streamed response: ", {generatedDescs});
   let promptObj = {
-    "直接发给chatgpt":"",
-    "英文邮件": "Generate a business email in UK English that is friendly, but still professional and appropriate for the workplace.The topic is",
-    "中文邮件": "Generate a business email in Simplified Chinese  that is friendly, but still professional and appropriate for the workplace.The topic is",
-    "总结一下说了啥":"用一段话详略得当的总结这段聊天内容",
-    "写个正则":"写个正则表达式",
-    "根据单词写个英语作文":"写一个符合雅思7分要求的100个单词的小作文，用到下面的单词",
-    "修改英语语法":"帮我改一下下面这段话的英语语法，符合雅思七分的要求",
-    "编日报":"帮我写个工作的日报，内容+列表的形式",
-    "哄媳妇睡觉小故事":"帮我生成一个500字的有意思的小故事，用来哄媳妇睡觉",
-    "小红书文案生成器":"帮我扩展一下这段文字，起一个能吸引眼球的标题，内容润色成小红书的风格，每行开头都用不同的emoji:"
+    "自我介绍（把简历内容贴在输入栏，注意不要泄露隐私）":"把简历内容提炼成自我介绍，需要展示出我的特点，也要展现出工作中的表现",
+    "简历润色":"把这些简历内容润色一下，让内容显得更专业",
+    "行业趋势（先填写你想了解的行业）":"结合市场情况，帮我详细分析一下这些行业的趋势",
+    "职位趋势（先填写你想了解的职位名称）":"结合市场情况，帮我详细分析一下这些岗位的未来发展趋势",
+    "职业规划（把自我介绍贴在输入栏）":"结合我的自我介绍，帮我做一下职业规划",
+    "职位匹配度咨询（需要把自我介绍和职位描述都贴进去）":"结合我的自我介绍",
+    "面试模拟（需要在上方填写职位名称和职位描述）":"你现在是面试官，",
+
   }
   
 
