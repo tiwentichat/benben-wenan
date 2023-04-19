@@ -23,7 +23,6 @@ const Home: NextPage = () => {
     "英文邮件": "Generate a business email in UK English that is friendly, but still professional and appropriate for the workplace.The topic is",
     "中文邮件": "Generate a business email in Simplified Chinese  that is friendly, but still professional and appropriate for the workplace.The topic is",
     "总结一下说了啥":"用一段话详略得当的总结这段聊天内容",
-    "废话生成器": "帮我生成一段冗长无实际意义的一段短文",
     "写个正则":"写个正则表达式",
     "根据单词写个英语作文":"写一个符合雅思7分要求的100个单词的小作文，用到下面的单词",
     "修改英语语法":"帮我改一下下面这段话的英语语法，符合雅思七分的要求",
