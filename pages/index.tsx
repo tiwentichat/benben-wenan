@@ -22,7 +22,7 @@ const Home: NextPage = () => {
     "直接发给chatgpt":"",
     "英文邮件": "Generate a business email in UK English that is friendly, but still professional and appropriate for the workplace.The topic is",
     "中文邮件": "Generate a business email in Simplified Chinese  that is friendly, but still professional and appropriate for the workplace.The topic is",
-    "说了啥":"用一段话详略得当总结这段聊天内容",
+    "总结以下说了啥":"用一段话详略得当总结这段聊天内容",
     "老胡生成器":"按照下面模板，写篇文章: '近期互联网上出现了___, 老胡看到___,知道大家很___,老胡忍不住啰嗦几句,虽然___, 确实存在部分___, 但是___, 最后老胡呼吁___。'，内容是",
     "写个正则":"写个正则表达式",
     "根据单词写个英语作文":"写一个符合雅思7分要求的100个单词的小作文，用到下面的单词",
