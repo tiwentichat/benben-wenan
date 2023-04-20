@@ -16,7 +16,7 @@ const Home: NextPage = () => {
   const [desc, setDesc] = useState("");
   const [lang, setLang] = useState<VibeType>("自我介绍（把简历内容贴在输入栏，注意不要泄露隐私）");
   const [generatedDescs, setGeneratedDescs] = useState<string>("");
-  const defultDesc = '这是我的简历，请帮我提取一个合适的自我介绍，方便我去参加面试'
+  const defultDesc = '"这是我的简历，请帮我提取一个合适的自我介绍，方便我去参加面试"；或者："帮我润色一下简历"，再或者：结合我的自我介绍（自我介绍要贴金了哦），分析一下我和这个职位（职位名称和职位描述也要贴进来）的匹配度'
   console.log("Streamed response: ", {generatedDescs});
   let promptObj = {
     "自我介绍（把简历内容贴在输入栏，注意不要泄露隐私）":"把简历内容提炼成自我介绍，需要展示出我的特点，也要展现出工作中的表现",
