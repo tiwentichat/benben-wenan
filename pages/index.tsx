@@ -186,7 +186,8 @@ const Home: NextPage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p>请我喝冰阔落🥤一对一解答💬</p>
+            <p>请我喝冰阔落🥤</p>
+            <p>猎头一对一解答💬</p>
           </a>
 
            
