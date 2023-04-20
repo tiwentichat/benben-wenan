@@ -173,14 +173,17 @@ const Home: NextPage = () => {
         </ResizablePanel>
         
         
+ <div className="flex flex-wrap justify-center gap-3 items-center">
+        <a
+            className="flex max-w-fit items-center justify-center space-x-2 rounded-md bg-white text-sm text-gray-600 shadow-sm transition-colors hover:opacity-80"
+            href="https://www.buymeacoffee.com/lvwzhen"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/buymeacoffee.png" className="h-10" alt="" />
+          </a>
         
-        
-        
-        
-        <div class="mt-2">
-  <a href="https://user-images.githubusercontent.com/125454744/233385149-6840f0e7-c9a6-4c86-8f80-23f1fd37f9bb.jpeg" target="_blank" class="text-[#1da1f2] font-medium text-sm px-5 py-2.5 text-center inline-flex items-center hover:opacity-80" id="image-link">
-    如果我帮到了你，可以请我喝冰阔落嘛~
-  </a>
+   
 </div>
 
 
@@ -204,16 +207,3 @@ const Home: NextPage = () => {
 export default Home;
 
 
-<script>
-  function showImage(event) {
-    event.preventDefault();
-    const imageSource = event.target.href;
-    const newWindow = window.open("", "imageWindow", "height=500,width=500");
-    const newImage = document.createElement("img");
-    newImage.src = imageSource;
-    newWindow.document.body.appendChild(newImage);
-  }
-
-  const imageLink = document.getElementById("image-link");
-  imageLink.addEventListener("click", showImage);
-</script>
