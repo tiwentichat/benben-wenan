@@ -91,7 +91,7 @@ const Home: NextPage = () => {
           就业大作战
         </h1>
         <div className="flex flex-wrap justify-center space-x-5">
-            <p>AI助力+猎头助力</p>
+            <p>🤖AI助力+猎头助力👍</p>
         </div>
         
         {/* <p className="text-slate-500 mt-5">18,167 bios generated so far.</p> */}
@@ -186,7 +186,7 @@ const Home: NextPage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p>如果对你有帮助，可以请我喝冰阔落~</p>
+            <p>请我喝冰阔落🥤一对一解答💬</p>
           </a>
 
            
