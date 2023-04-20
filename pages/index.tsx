@@ -85,13 +85,15 @@ const Home: NextPage = () => {
 
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-2 sm:mt-4">
         
-        <div className="flex flex-wrap justify-center space-x-5">
-            <p>职场是个围城(让我们先进围城再说..</p>
-        </div>
+        
 
         <h1 className="sm:text-3xl text-2xl max-w-1xl font-bold text-slate-900">
           就业大作战
         </h1>
+        <div className="flex flex-wrap justify-center space-x-5">
+            <p>AI助力+猎头助力</p>
+        </div>
+        
         {/* <p className="text-slate-500 mt-5">18,167 bios generated so far.</p> */}
         <div className="max-w-xl w-full">
           <div className="flex mt-4 items-center space-x-3 mb-3">
