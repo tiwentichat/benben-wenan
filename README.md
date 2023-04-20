@@ -10,7 +10,9 @@
 <img src="https://user-images.githubusercontent.com/125454744/233411892-8522e025-cef3-46ad-a141-4b91a938afde.jpeg" alt="bingkuoluo" height="200"/>
 
 我：我是猎头+GPT助力的伪程序员
+
 你：如果有就业/工作问题想进一步咨询，怎么联系你？
+
 我：你可以加我微信：wulingyu2021 
 
 
