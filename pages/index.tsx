@@ -171,6 +171,21 @@ const Home: NextPage = () => {
             </motion.div>
           </AnimatePresence>
         </ResizablePanel>
+        
+        
+       <div class="mt-2">
+        <button class="text-[#1da1f2] font-medium text-sm px-5 py-2.5 text-center inline-flex items-center hover:opacity-80" id="openDialog">
+          <img src="/public/bingkuoluo.jpeg" alt="bingkuoluo" class="w-4 h-4 mr-2 -ml-1">
+           如果帮到你了，可以请我喝冰阔落嘛~
+        </button>
+      </div>
+
+      <dialog>
+        <img src="/public/bingkuoluo.jpeg" alt="bingkuoluo">
+        <button close>关闭</button>
+      </dialog>
+        
+        
       </main>
       <Footer />
     </div>
