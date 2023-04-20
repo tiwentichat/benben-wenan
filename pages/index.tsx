@@ -174,16 +174,10 @@ const Home: NextPage = () => {
         
         
        <div class="mt-2">
-        <button class="text-[#1da1f2] font-medium text-sm px-5 py-2.5 text-center inline-flex items-center hover:opacity-80" id="openDialog">
-          <img src="/public/bingkuoluo.jpeg" alt="bingkuoluo" class="w-4 h-4 mr-2 -ml-1">
-           如果帮到你了，可以请我喝冰阔落嘛~
-        </button>
-      </div>
-
-      <dialog>
-        <img src="/public/bingkuoluo.jpeg" alt="bingkuoluo">
-        <button close>关闭</button>
-      </dialog>
+          <a href="https://user-images.githubusercontent.com/125454744/233385149-6840f0e7-c9a6-4c86-8f80-23f1fd37f9bb.jpeg" target="_blank" class="text-[#1da1f2] font-medium text-sm px-5 py-2.5 text-center inline-flex items-center hover:opacity-80">
+            如果我帮到了你，可以请我喝冰阔落嘛~
+          </a>
+       </div>
         
         
       </main>
