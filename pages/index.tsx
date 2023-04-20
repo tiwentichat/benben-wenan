@@ -85,6 +85,9 @@ const Home: NextPage = () => {
 
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-2 sm:mt-4">
         
+        <div className="flex flex-wrap justify-center space-x-5">
+            <p>职场是个围城(让我们先进围城再说..</p>
+        </div>
 
         <h1 className="sm:text-3xl text-2xl max-w-1xl font-bold text-slate-900">
           就业大作战
