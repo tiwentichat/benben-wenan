@@ -40,7 +40,6 @@ export default function Footer() {
         >
           Benben
         </a>
-        </a>
       </div>
       
       
