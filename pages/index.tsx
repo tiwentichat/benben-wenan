@@ -173,29 +173,19 @@ const Home: NextPage = () => {
         </ResizablePanel>
         
         
- <div className="flex flex-wrap justify-center gap-3 items-center">
-        <a
-            className="flex max-w-fit items-center justify-center space-x-2 rounded-md bg-white text-sm text-gray-600 shadow-sm transition-colors hover:opacity-80"
-            href="https://www.buymeacoffee.com/lvwzhen"
+         <div className="flex flex-wrap justify-center space-x-5">
+         
+          <a
+            className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
+            href="https://github.com/tiwentichat/benben-wenan"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/buymeacoffee.png" className="h-10" alt="" />
+            <p>如果对你有帮助，可以请我喝冰阔落~</p>
           </a>
-        
-   
-</div>
 
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
+           
+        </div>
         
         
       </main>
