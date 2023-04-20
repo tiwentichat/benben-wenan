@@ -79,7 +79,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>写作助理</title>
+        <title>谁来救救我的工作</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
         
 
         <h1 className="sm:text-3xl text-2xl max-w-1xl font-bold text-slate-900">
-          就业作战室
+          谁来救救我的工作
         </h1>
         {/* <p className="text-slate-500 mt-5">18,167 bios generated so far.</p> */}
         <div className="max-w-xl w-full">
