@@ -31,6 +31,31 @@ export default function Footer() {
         >
           Next.js
         </a>
+        {" + "}
+        <a
+          href="https://github.com/shengxinjing/benben"
+          target="_blank"
+          rel="noreferrer"
+          className="font-bold hover:underline transition underline-offset-2"
+        >
+          Benben
+        </a>
+        </a>
+      </div>
+      
+      
+                 
+      
+      
+      <div>
+        如果帮到了你，就...请我喝冰阔落吧~{" "}
+        <a
+            className="flex max-w-fit items-center justify-center space-x-2 rounded-md bg-white text-sm text-gray-600 shadow-sm transition-colors hover:opacity-80"
+
+            rel="noopener noreferrer"
+          >
+            <img src="/bingkuoluo.jpeg" className="h-10" alt="" />
+          </a>
       </div>
       
     </footer>
